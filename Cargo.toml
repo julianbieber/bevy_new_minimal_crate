@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 # consider depending on the specific bevy creates required for your crate
-bevy = "0.17.3"
+bevy = "0.18"
 # Set max log levels. This helps avoid unwanted low-severity log spam, which can affect performance.
 log = { version = "0.4", features = [
     "max_level_debug",
